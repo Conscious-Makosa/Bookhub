@@ -10,7 +10,7 @@ The problem addressed by this project is the inefficiency and lack of transparen
 ## Motivation
 The motivation behind developing a Library Management System using blockchain technology stems from the desire to overcome the shortcomings of traditional systems. Blockchain, as a distributed ledger technology, can provide several advantages such as enhanced data security, transparency, and trust. By leveraging these benefits, we can create a more efficient and reliable library management system that ensures the integrity of data and promotes seamless access to resources This cutting-edge technology offers the potential to revolutionize the way libraries. operate and deliver services to users.
 to allow users to borrow digital copies of books and read them offline, ensuring access even when physical copies are not available. We aim to provide a web page for every book ever published, making reading more accessible to everyone. If you’re interested in exploring our collections, you might find a vast array of books to enjoy, even without an internet connection.
-## Objects
+## Objectives
 Time saving as clients will be able to access books on their conviency.
 Reliable and effective; we want to depend and count on the system for a smooth sailing 
 Easy accessiblility: it will be a stand alone and web application such that everyone can easily access anywere and at anytime
