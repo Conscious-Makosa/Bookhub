@@ -1,0 +1,597 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<sim-project version="12.79" multi-file="no" uid="simpd7daef3bbbec4592814853fec3fb9b66">
+  <meta>
+    <name>project model</name>
+    <authors> </authors>
+    <description />
+  </meta>
+  <counters models="1">
+    <entity-names>
+      <counter>
+        <item-type type-id="package" type="Package" />
+        <value>1</value>
+      </counter>
+      <counter>
+        <item-type type-id="class" type="Class" />
+        <value>6</value>
+      </counter>
+    </entity-names>
+    <entity-ids>
+      <counter>
+        <item-type type-id="package" type="Package" />
+        <value>2</value>
+      </counter>
+      <counter>
+        <item-type type-id="class" type="Class" />
+        <value>7</value>
+      </counter>
+      <counter>
+        <item-type type-id="property" type="Property" />
+        <value>34</value>
+      </counter>
+      <counter>
+        <item-type type-id="generalization" type="Generalization" />
+        <value>2</value>
+      </counter>
+      <counter>
+        <item-type type-id="relationship" type="Association" />
+        <value>8</value>
+      </counter>
+      <counter>
+        <item-type type-id="group" type="Group" />
+        <value>5</value>
+      </counter>
+    </entity-ids>
+    <diagrams>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.Diagrams.UmlDiagrams.UmlActivityDiagram</type>
+        <value>1</value>
+      </counter>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.Diagrams.UmlDiagrams.UmlClassDiagram</type>
+        <value>1</value>
+      </counter>
+    </diagrams>
+    <fields>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.DiagramItems.Fields.OperationField</type>
+        <value>20</value>
+      </counter>
+    </fields>
+  </counters>
+  <alias-groups />
+  <management uid="md-d0b97ecc858e4592b7e292a42dd977b5" name="" task-id-sequence="0">
+    <working-schedule uid="ws-d60b00708b08451caef94a49c845273e" hours="8" monday="8" tuesday="8" wednesday="8" thursday="8" friday="8" saturday="0" sunday="0" />
+    <persons>
+      <person id="">
+        <first-name />
+        <last-name>Ngano</last-name>
+        <role />
+        <e-mail />
+        <phone-number />
+        <description />
+        <color>#00000000</color>
+        <working-schedule uid="ws-4f133a23b24c46819dd453157d9e256f" hours="8" monday="8" tuesday="8" wednesday="8" thursday="8" friday="8" saturday="0" sunday="0" />
+      </person>
+      <person id="">
+        <first-name />
+        <last-name />
+        <role />
+        <e-mail />
+        <phone-number />
+        <description />
+        <color>#00000000</color>
+      </person>
+    </persons>
+    <teams />
+    <sprints />
+    <projects />
+    <modules />
+    <tasks />
+    <to-dos />
+  </management>
+  <glossary id="glsr-1101d52ee6f6490195afdd63d5f96548" />
+  <types default="UML">
+    <type-sets>
+      <type-set file="UmlTypes.xml" />
+    </type-sets>
+    <custom-types>
+      <type id="library system management" tid="Class:1acd51359d1f4d9bbe58e53dd84b0c58" name="library system management" description="" class-ref="1acd51359d1f4d9bbe58e53dd84b0c58" />
+      <type id="Books" tid="Class:36e97e0c3e5d43dcbfd24150c3c75c2a" name="Books" description="" class-ref="36e97e0c3e5d43dcbfd24150c3c75c2a" />
+      <type id="Librarians" tid="Class:a4085e0e72424b11bc4e4049cab9625e" name="Librarians" description="" class-ref="a4085e0e72424b11bc4e4049cab9625e" />
+      <type id="library Hub" tid="Class:52d42f8cc79541f19cd4dbbfd8bf24c7" name="library Hub" description="" class-ref="52d42f8cc79541f19cd4dbbfd8bf24c7" />
+      <type id="users" tid="Class:bfd690761b0d48f6be7de649060b2fd7" name="users" description="" class-ref="bfd690761b0d48f6be7de649060b2fd7" />
+    </custom-types>
+  </types>
+  <items>
+    <item id="354279c660da4b13be446c2b7ea25c5a" cid="PROP022" type="property" name="" style-class="" owner="88011a2613c44e009e1a9db3021802bb" creator="" creation-date="03/19/2024 12:59:47" visibility="private">
+      <feature />
+      <structural-feature type="library system management" type-id="library system management" />
+      <property />
+    </item>
+    <item id="6d4e4062f32146b48a86e92b440c8a0e" cid="PROP028" type="property" name="" style-class="" owner="79d9ddddb9824043b2b4c5b3acbcef6e" creator="" creation-date="03/19/2024 13:01:14" visibility="private">
+      <feature />
+      <structural-feature type="Books" type-id="Books" />
+      <property />
+    </item>
+    <item id="416510e0751e49afa00f2495b8b11212" cid="PROP029" type="property" name="" style-class="" owner="79d9ddddb9824043b2b4c5b3acbcef6e" creator="" creation-date="03/19/2024 13:01:14" visibility="private">
+      <feature />
+      <structural-feature type="Librarians" type-id="Librarians" />
+      <property />
+    </item>
+    <item id="27f4483ad36848f1929a5c7d894774c0" cid="PROP031" type="property" name="" style-class="" owner="379424a0bc9d43edbff0149624a8c5ed" creator="" creation-date="03/19/2024 13:01:33" visibility="private">
+      <feature />
+      <structural-feature type="library Hub" type-id="library Hub" />
+      <property />
+    </item>
+    <item id="49d578c0e33f444eadfa3c048a1d6b55" cid="PROP023" type="property" name="" style-class="" owner="88011a2613c44e009e1a9db3021802bb" creator="" creation-date="03/19/2024 12:59:47" visibility="private">
+      <feature />
+      <structural-feature type="Books" type-id="Books" />
+      <property />
+    </item>
+    <item id="fda9a85491a14daeb96011528b7563ab" cid="PROP020" type="property" name="" style-class="" owner="c59bfcef37b74bf0a4d0983252995740" creator="" creation-date="03/19/2024 12:59:26" visibility="private">
+      <feature />
+      <structural-feature type="library system management" type-id="library system management" />
+      <property />
+    </item>
+    <item id="f05a692354fe4faca66d24649cfd31fe" cid="PROP021" type="property" name="" style-class="" owner="c59bfcef37b74bf0a4d0983252995740" creator="" creation-date="03/19/2024 12:59:26" visibility="private">
+      <feature />
+      <structural-feature type="users" type-id="users" />
+      <property />
+    </item>
+    <item id="d198aead89454d43872a26b6d0cda64c" cid="PROP027" type="property" name="" style-class="" owner="d6a5fd86038546e1b6a7aabd4004228d" creator="" creation-date="03/19/2024 13:00:59" visibility="private">
+      <feature />
+      <structural-feature type="Books" type-id="Books" />
+      <property />
+    </item>
+    <item id="910cd2be590a4a54a551e01076259b5a" cid="PROP024" type="property" name="" style-class="" owner="6813f6479cb0485084658df565786255" creator="" creation-date="03/19/2024 13:00:35" visibility="private">
+      <feature />
+      <structural-feature type="library system management" type-id="library system management" />
+      <property />
+    </item>
+    <item id="01dda347bb26455c8585f1362431d2a2" cid="PROP032" type="property" name="" style-class="" owner="4572152ff4d449c5a3ea2936368ed99b" creator="" creation-date="03/19/2024 13:01:44" visibility="private">
+      <feature />
+      <structural-feature type="library system management" type-id="library system management" />
+      <property />
+    </item>
+    <item id="e71e72a9dec94ef588bdc3d561fafc4d" cid="PROP025" type="property" name="" style-class="" owner="6813f6479cb0485084658df565786255" creator="" creation-date="03/19/2024 13:00:35" visibility="private">
+      <feature />
+      <structural-feature type="Librarians" type-id="Librarians" />
+      <property />
+    </item>
+    <item id="d9f21a930eb846b5a85f11dafc85fd76" cid="PROP026" type="property" name="" style-class="" owner="d6a5fd86038546e1b6a7aabd4004228d" creator="" creation-date="03/19/2024 13:00:59" visibility="private">
+      <feature />
+      <structural-feature type="users" type-id="users" />
+      <property />
+    </item>
+    <item id="dd06fe8d8b954a86bda770240076a4e2" cid="PROP033" type="property" name="" style-class="" owner="4572152ff4d449c5a3ea2936368ed99b" creator="" creation-date="03/19/2024 13:01:44" visibility="private">
+      <feature />
+      <structural-feature type="library Hub" type-id="library Hub" />
+      <property />
+    </item>
+    <item id="6a1ed3a0a9784771835309cf0af05f22" cid="PROP030" type="property" name="" style-class="" owner="379424a0bc9d43edbff0149624a8c5ed" creator="" creation-date="03/19/2024 13:01:33" visibility="private">
+      <feature />
+      <structural-feature type="Librarians" type-id="Librarians" />
+      <property />
+    </item>
+  </items>
+  <models>
+    <model id="pe4270f6c1acb4b2dabfd4e74c583ce0e_616496662" name="Model1" namespace="" order-index="1">
+      <meta>
+        <authors>
+          <author> </author>
+        </authors>
+        <description />
+        <creation-date>03/19/2024 11:51:56</creation-date>
+        <change-date>01/01/0001 00:00:00</change-date>
+        <revision-count>0</revision-count>
+        <version />
+      </meta>
+      <abstract-items />
+      <sub-models />
+      <diagram type="uml-activity" id="p088b420d95644189a8fca58f3ed63d47_195292082" name="ActivityDiagram1" order-index="1" uid="" show-id="false" show-name="true" show-parent-name="false" name-style="" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-field-tags="true" show-empty-compartments="true" show-special-indicators="false" show-rules="true" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-visibility-sign="true" show-nullability="true" show-sequence-number="false" show-extension-points="false" show-relationship-texts="true" show-data="true" show-description="false" show-field-description="false" auto-routed-paths="false" default-line-style="default" view-location="-100,-100">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="solid" />
+        </style>
+        <meta>
+          <authors>
+            <author> </author>
+          </authors>
+          <description />
+          <creation-date>03/19/2024 11:51:57</creation-date>
+          <change-date>03/19/2024 11:51:57</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <abstract-items />
+        <layer id="4ce6424bf2944bcfb638ef6cb44dcbb9" name="Default" visible="true" enabled="true" locked="false" />
+      </diagram>
+      <diagram type="uml-class" id="pf933e323ddd840cd9fb83407ce90b20f_513322544" name="ClassDiagram1" order-index="2" overview-order-index="0" uid="" show-id="false" show-name="true" show-parent-name="false" name-style="" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-field-tags="true" show-empty-compartments="true" show-special-indicators="false" show-rules="true" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-visibility-sign="true" show-nullability="true" show-sequence-number="false" show-extension-points="false" show-relationship-texts="true" show-data="true" show-description="false" show-field-description="false" auto-routed-paths="false" default-line-style="default" view-location="0,4">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="solid" />
+        </style>
+        <meta>
+          <authors>
+            <author> </author>
+          </authors>
+          <description />
+          <creation-date>03/19/2024 12:11:45</creation-date>
+          <change-date>03/19/2024 13:01:44</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <abstract-items>
+          <item id="52d42f8cc79541f19cd4dbbfd8bf24c7" cid="C004" type="class" name="library Hub" style-class="" creator="" creation-date="03/19/2024 12:35:23" visibility="undefined">
+            <owned-items>
+              <owned-item ref="a2922c55e42e4254baec501241d0a976" />
+            </owned-items>
+            <attributes>
+              <attribute id="a6f4526d0f2dd4d8097e19387c62055f6921" cid="PROP018" name="List of Books" creation-date="03/19/2024 12:52:57" property-ref="a2922c55e42e4254baec501241d0a976" />
+            </attributes>
+            <operations>
+              <operation id="o6fb098468af4401d9de6de50c4bd7783753" cid="OP015" name="Add" creation-date="03/19/2024 12:55:18" type="" type-id="" visibility="public" />
+              <operation id="o6a632a6c582447c486868ca5936dbd99385" cid="OP016" name="Delete" creation-date="03/19/2024 12:55:33" type="" type-id="" visibility="public" />
+              <operation id="o97b7583d8a6445b0b7a4631b0028533b106" cid="OP017" name="Update" creation-date="03/19/2024 12:55:41" type="" type-id="" visibility="public" />
+              <operation id="o07d0ef524f674d15a4453c116db2fd06179" cid="OP018" name="Display" creation-date="03/19/2024 12:55:52" type="" type-id="" visibility="public" />
+              <operation id="o54bcebd159194d508b3a3876cd0e5e04346" cid="OP019" name="Search" creation-date="03/19/2024 12:55:59" type="" type-id="" visibility="public" />
+            </operations>
+          </item>
+          <item id="79d9ddddb9824043b2b4c5b3acbcef6e" cid="REL005" type="relationship" name="" style-class="" creator="" creation-date="03/19/2024 13:01:14" from="36e97e0c3e5d43dcbfd24150c3c75c2a" to="a4085e0e72424b11bc4e4049cab9625e" visibility="package">
+            <owned-items>
+              <owned-item ref="6d4e4062f32146b48a86e92b440c8a0e" />
+              <owned-item ref="416510e0751e49afa00f2495b8b11212" />
+            </owned-items>
+            <relation from="36e97e0c3e5d43dcbfd24150c3c75c2a" to="a4085e0e72424b11bc4e4049cab9625e" derived="false">
+              <start-role id="umlar-094f4d20-a625-4597-b684-2c57d003efcf" name="" navigability="" association-type="association" visibility="private" />
+              <end-role id="umlar-62e66936-cd66-48ca-9fa3-92045a7566c9" name="" navigability="" association-type="association" visibility="private" />
+            </relation>
+          </item>
+          <item id="24060108924c49ad8ac7910342a7b856" cid="PROP010" type="property" name="Department" style-class="" owner="bfd690761b0d48f6be7de649060b2fd7" creator="" creation-date="03/19/2024 12:32:40" visibility="private">
+            <feature />
+            <structural-feature type="" type-id="" />
+            <property />
+          </item>
+          <item id="14113421b5f84f1ab146a8a8eb649120" cid="PROP004" type="property" name="Name" style-class="" owner="a4085e0e72424b11bc4e4049cab9625e" creator="" creation-date="03/19/2024 12:20:01" visibility="private">
+            <feature />
+            <structural-feature type="" type-id="" />
+            <property />
+          </item>
+          <item id="73eeefa42f5b4da1a52227829d8bb35c" cid="PROP014" type="property" name="Title" style-class="" owner="36e97e0c3e5d43dcbfd24150c3c75c2a" creator="" creation-date="03/19/2024 12:46:38" visibility="private">
+            <feature />
+            <structural-feature type="" type-id="" />
+            <property />
+          </item>
+          <item id="d6a5fd86038546e1b6a7aabd4004228d" cid="REL004" type="relationship" name="" style-class="" creator="" creation-date="03/19/2024 13:00:59" from="bfd690761b0d48f6be7de649060b2fd7" to="36e97e0c3e5d43dcbfd24150c3c75c2a" visibility="package">
+            <owned-items>
+              <owned-item ref="d198aead89454d43872a26b6d0cda64c" />
+              <owned-item ref="d9f21a930eb846b5a85f11dafc85fd76" />
+            </owned-items>
+            <relation from="bfd690761b0d48f6be7de649060b2fd7" to="36e97e0c3e5d43dcbfd24150c3c75c2a" derived="false">
+              <start-role id="umlar-6538528b-ab27-4c8a-8e41-6622d34b2754" name="" navigability="" association-type="association" visibility="private" />
+              <end-role id="umlar-52b2cba2-105d-46b6-9c65-4e8d63d32336" name="" navigability="" association-type="association" visibility="private" />
+            </relation>
+          </item>
+          <item id="a4085e0e72424b11bc4e4049cab9625e" cid="C002" type="class" name="Librarians" style-class="" creator="" creation-date="03/19/2024 12:19:30" visibility="undefined">
+            <owned-items>
+              <owned-item ref="14113421b5f84f1ab146a8a8eb649120" />
+              <owned-item ref="00bd28a8012544339d5b3c88bab894c9" />
+              <owned-item ref="8d051553ac61486a8332a907778764d6" />
+            </owned-items>
+            <attributes>
+              <attribute id="a633415f27a004d4da30f7f3eb7ddad42348" cid="PROP004" name="Name" creation-date="03/19/2024 12:20:01" property-ref="14113421b5f84f1ab146a8a8eb649120" />
+              <attribute id="ad3cbe5116f2e4c93ac9e35dcc779c02d277" cid="PROP005" name="ID" creation-date="03/19/2024 12:22:38" property-ref="8d051553ac61486a8332a907778764d6" />
+              <attribute id="ad29b8ce9044e4559ae4b38ef8a9ba8f7188" cid="PROP007" name="search string" creation-date="03/19/2024 12:23:10" property-ref="00bd28a8012544339d5b3c88bab894c9" />
+            </attributes>
+            <operations>
+              <operation id="o5a266cb86a414d6f96e69d32502a9adb577" cid="OP005" name="verify librarian" creation-date="03/19/2024 12:23:36" type="" type-id="" visibility="public" />
+              <operation id="odc9bb9c2b6c944d792fa1f37b8027e21369" cid="OP006" name="search" creation-date="03/19/2024 12:24:30" type="" type-id="" visibility="public" />
+            </operations>
+          </item>
+          <item id="1acd51359d1f4d9bbe58e53dd84b0c58" cid="C001" type="class" name="library system management" style-class="" creator="" creation-date="03/19/2024 12:14:12" visibility="undefined">
+            <owned-items>
+              <owned-item ref="da8f77b880ed4148a21af229836da699" />
+              <owned-item ref="a759334ceeb24721bbe4c604b16a17d8" />
+              <owned-item ref="846b270b0b5c4c97a0aee74eca9478b8" />
+            </owned-items>
+            <attributes>
+              <attribute id="a3074696bd39f4a38aca91879ab96a8bb6" cid="PROP001" name="usertype" creation-date="03/19/2024 12:16:07" property-ref="a759334ceeb24721bbe4c604b16a17d8" />
+              <attribute id="ac542f1d84cfc44bfbacecb5cc15009f5851" cid="PROP002" name="username" creation-date="03/19/2024 12:16:26" property-ref="da8f77b880ed4148a21af229836da699" />
+              <attribute id="a43bd0e1ec6b7489b8f4db488d7580888248" cid="PROP003" name="password" creation-date="03/19/2024 12:17:03" property-ref="846b270b0b5c4c97a0aee74eca9478b8" />
+            </attributes>
+            <operations>
+              <operation id="o70d69f55f2fc4907b3a4e19d83af6d4f545" cid="OP001" name="login" creation-date="03/19/2024 12:17:39" type="" type-id="" visibility="undefined" />
+              <operation id="o0fbeba6e674d42ecad37997a53573064526" cid="OP002" name="logout" creation-date="03/19/2024 12:17:56" type="" type-id="" visibility="undefined" />
+              <operation id="o83add2ec24c442749b809de939ea0707397" cid="OP003" name="Register" creation-date="03/19/2024 12:18:23" type="" type-id="" visibility="undefined" />
+              <operation id="o324adc4d025a4737a0c5e8983c47263b52" cid="OP004" name="passwoord reset" creation-date="03/19/2024 12:20:54" type="" type-id="" visibility="public" />
+            </operations>
+            <source-codes>
+              <source-code language="ActionScript" />
+            </source-codes>
+          </item>
+          <item id="4572152ff4d449c5a3ea2936368ed99b" cid="REL007" type="relationship" name="" style-class="" creator="" creation-date="03/19/2024 13:01:44" from="1acd51359d1f4d9bbe58e53dd84b0c58" to="52d42f8cc79541f19cd4dbbfd8bf24c7" visibility="package">
+            <owned-items>
+              <owned-item ref="01dda347bb26455c8585f1362431d2a2" />
+              <owned-item ref="dd06fe8d8b954a86bda770240076a4e2" />
+            </owned-items>
+            <relation from="1acd51359d1f4d9bbe58e53dd84b0c58" to="52d42f8cc79541f19cd4dbbfd8bf24c7" derived="false">
+              <start-role id="umlar-4d1132e8-1386-46c0-8303-120f7dfb8ce7" name="" navigability="" association-type="association" visibility="private" />
+              <end-role id="umlar-a4f01587-1cb3-4524-b301-fe24b390bf1e" name="" navigability="" association-type="association" visibility="private" />
+            </relation>
+          </item>
+          <item id="6813f6479cb0485084658df565786255" cid="REL003" type="relationship" name="" style-class="" creator="" creation-date="03/19/2024 13:00:35" from="1acd51359d1f4d9bbe58e53dd84b0c58" to="a4085e0e72424b11bc4e4049cab9625e" visibility="package">
+            <owned-items>
+              <owned-item ref="910cd2be590a4a54a551e01076259b5a" />
+              <owned-item ref="e71e72a9dec94ef588bdc3d561fafc4d" />
+            </owned-items>
+            <relation from="1acd51359d1f4d9bbe58e53dd84b0c58" to="a4085e0e72424b11bc4e4049cab9625e" derived="false">
+              <start-role id="umlar-e2972fa1-1dfc-4c9a-b769-8a7d1b2d386e" name="" navigability="" association-type="association" visibility="private" />
+              <end-role id="umlar-88a1e818-bb1e-402f-b0ef-51e6cf8b79cc" name="" navigability="" association-type="association" visibility="private" />
+            </relation>
+          </item>
+          <item id="c59bfcef37b74bf0a4d0983252995740" cid="REL001" type="relationship" name="" style-class="" creator="" creation-date="03/19/2024 12:59:26" from="1acd51359d1f4d9bbe58e53dd84b0c58" to="bfd690761b0d48f6be7de649060b2fd7" visibility="package">
+            <owned-items>
+              <owned-item ref="fda9a85491a14daeb96011528b7563ab" />
+              <owned-item ref="f05a692354fe4faca66d24649cfd31fe" />
+            </owned-items>
+            <relation from="1acd51359d1f4d9bbe58e53dd84b0c58" to="bfd690761b0d48f6be7de649060b2fd7" derived="false">
+              <start-role id="umlar-389e9efc-d217-4830-8e34-bd1d8b6ff164" name="" navigability="" association-type="association" visibility="private" />
+              <end-role id="umlar-14a138f4-fae3-4cfc-ab46-3cd92792c216" name="" navigability="" association-type="association" visibility="private" />
+            </relation>
+          </item>
+          <item id="6f59cbfba4da4af1b6eff496cb8bdbf8" cid="PROP017" type="property" name="publication" style-class="" owner="36e97e0c3e5d43dcbfd24150c3c75c2a" creator="" creation-date="03/19/2024 12:48:04" visibility="private">
+            <feature />
+            <structural-feature type="" type-id="" />
+            <property />
+          </item>
+          <item id="6aeee010cd0b4c7c8b9593fcdc08bdbf" cid="PROP011" type="property" name="no_borrowed books" style-class="" owner="164eeb43d6e14f80bb5249f4f06fe077" creator="" creation-date="03/19/2024 12:42:17" visibility="private">
+            <feature />
+            <structural-feature type="" type-id="" />
+            <property />
+          </item>
+          <item id="da8f77b880ed4148a21af229836da699" cid="PROP002" type="property" name="username" style-class="" owner="1acd51359d1f4d9bbe58e53dd84b0c58" creator="" creation-date="03/19/2024 12:16:26" visibility="private">
+            <feature />
+            <structural-feature type="" type-id="" />
+            <property />
+          </item>
+          <item id="164eeb43d6e14f80bb5249f4f06fe077" cid="C005" type="class" name="Account" style-class="" creator="" creation-date="03/19/2024 12:41:20" visibility="undefined">
+            <owned-items>
+              <owned-item ref="6aeee010cd0b4c7c8b9593fcdc08bdbf" />
+              <owned-item ref="dc8fec767e4f4646b72222e76da8ce4e" />
+              <owned-item ref="127dc6de1f8a433ea15936ec9e14cf60" />
+            </owned-items>
+            <attributes>
+              <attribute id="a72f32c625429405e892d9159fc75ec9e217" cid="PROP011" name="no_borrowed books" creation-date="03/19/2024 12:42:17" property-ref="6aeee010cd0b4c7c8b9593fcdc08bdbf" />
+              <attribute id="a6196ac466ace40f99ad98d8255374031617" cid="PROP012" name="no_resevered_books" creation-date="03/19/2024 12:43:32" property-ref="127dc6de1f8a433ea15936ec9e14cf60" />
+              <attribute id="ab1f8eddd691f434ca7fb4b2fd02b7bd4113" cid="PROP013" name="no_returned_books" creation-date="03/19/2024 12:44:23" property-ref="dc8fec767e4f4646b72222e76da8ce4e" />
+            </attributes>
+            <operations>
+              <operation id="o34ae3dcc1f18428bb2a3cbf1cd8b58aa49" cid="OP010" name="calculate fine" creation-date="03/19/2024 12:44:49" type="" type-id="" visibility="public" />
+            </operations>
+          </item>
+          <item id="36e97e0c3e5d43dcbfd24150c3c75c2a" cid="C006" type="class" name="Books" style-class="" creator="" creation-date="03/19/2024 12:46:01" visibility="undefined">
+            <owned-items>
+              <owned-item ref="73eeefa42f5b4da1a52227829d8bb35c" />
+              <owned-item ref="6f59cbfba4da4af1b6eff496cb8bdbf8" />
+              <owned-item ref="cebcc01e93f34581a9df6762ec2808ba" />
+              <owned-item ref="565f07d102c441d89a3777ba8f5a6e6b" />
+              <owned-item ref="0ee15e4d302b453e997f3dfba1c2becb" />
+            </owned-items>
+            <attributes>
+              <attribute id="a01a7fcf72b7848a588401163828f53c9329" cid="PROP014" name="Title" creation-date="03/19/2024 12:46:38" property-ref="73eeefa42f5b4da1a52227829d8bb35c" />
+              <attribute id="a71527b9cec264e3ba3de00c070e1ec28203" cid="PROP015" name="Author" creation-date="03/19/2024 12:47:36" property-ref="0ee15e4d302b453e997f3dfba1c2becb" />
+              <attribute id="a1ad75cb4addc47428e1f97f49c1540ce129" cid="PROP016" name="ISBN" creation-date="03/19/2024 12:47:49" property-ref="565f07d102c441d89a3777ba8f5a6e6b" />
+              <attribute id="a31dbdbd4b880417ab3ef943b7cb423fa409" cid="PROP017" name="publication" creation-date="03/19/2024 12:48:04" property-ref="6f59cbfba4da4af1b6eff496cb8bdbf8" />
+              <attribute id="a151ce3a3c5e64f9798e5e63f4d675b31962" cid="PROP019" name="" creation-date="03/19/2024 12:53:45" property-ref="cebcc01e93f34581a9df6762ec2808ba" />
+            </attributes>
+            <operations>
+              <operation id="o9034aa51a49a4cd9ad96787fa7971aee713" cid="OP011" name="show_book details" creation-date="03/19/2024 12:48:27" type="" type-id="" visibility="public" />
+              <operation id="od25d025780974d81be17d3ef415c3c8b697" cid="OP012" name="reservation status" creation-date="03/19/2024 12:53:56" type="" type-id="" visibility="public" />
+              <operation id="oef8f36d8480b4e3282b5f9a6d6647701271" cid="OP013" name="book_request" creation-date="03/19/2024 12:54:20" type="" type-id="" visibility="public" />
+              <operation id="o9abca5898b8649efa03fe0774647e41f181" cid="OP014" name="renew_info" creation-date="03/19/2024 12:54:35" type="" type-id="" visibility="public" />
+            </operations>
+          </item>
+          <item id="a759334ceeb24721bbe4c604b16a17d8" cid="PROP001" type="property" name="usertype" style-class="" owner="1acd51359d1f4d9bbe58e53dd84b0c58" creator="" creation-date="03/19/2024 12:16:07" visibility="private">
+            <feature />
+            <structural-feature type="" type-id="" />
+            <property />
+          </item>
+          <item id="2d2ead1a87834cef8ea7e6099cb05291" cid="PROP008" type="property" name="Name" style-class="" owner="bfd690761b0d48f6be7de649060b2fd7" creator="" creation-date="03/19/2024 12:32:01" visibility="private">
+            <feature />
+            <structural-feature type="" type-id="" />
+            <property />
+          </item>
+          <item id="88011a2613c44e009e1a9db3021802bb" cid="REL002" type="relationship" name="" style-class="" creator="" creation-date="03/19/2024 12:59:47" from="1acd51359d1f4d9bbe58e53dd84b0c58" to="36e97e0c3e5d43dcbfd24150c3c75c2a" visibility="package">
+            <owned-items>
+              <owned-item ref="354279c660da4b13be446c2b7ea25c5a" />
+              <owned-item ref="49d578c0e33f444eadfa3c048a1d6b55" />
+            </owned-items>
+            <relation from="1acd51359d1f4d9bbe58e53dd84b0c58" to="36e97e0c3e5d43dcbfd24150c3c75c2a" derived="false">
+              <start-role id="umlar-0e198516-6afe-4cb5-9548-063d2a837f85" name="" navigability="" association-type="association" visibility="private" />
+              <end-role id="umlar-54497423-340c-4b0a-9d1e-1e885145e3ad" name="" navigability="" association-type="association" visibility="private" />
+            </relation>
+          </item>
+          <item id="846b270b0b5c4c97a0aee74eca9478b8" cid="PROP003" type="property" name="password" style-class="" owner="1acd51359d1f4d9bbe58e53dd84b0c58" creator="" creation-date="03/19/2024 12:17:03" visibility="private">
+            <feature />
+            <structural-feature type="" type-id="" />
+            <property />
+          </item>
+          <item id="db4c4345ae6446d9a98ad34d625962a5" cid="PROP009" type="property" name="ID" style-class="" owner="bfd690761b0d48f6be7de649060b2fd7" creator="" creation-date="03/19/2024 12:32:36" visibility="private">
+            <feature />
+            <structural-feature type="" type-id="" />
+            <property />
+          </item>
+          <item id="00bd28a8012544339d5b3c88bab894c9" cid="PROP007" type="property" name="search string" style-class="" owner="a4085e0e72424b11bc4e4049cab9625e" creator="" creation-date="03/19/2024 12:23:10" visibility="private">
+            <feature />
+            <structural-feature type="" type-id="" />
+            <property />
+          </item>
+          <item id="a2922c55e42e4254baec501241d0a976" cid="PROP018" type="property" name="List of Books" style-class="" owner="52d42f8cc79541f19cd4dbbfd8bf24c7" creator="" creation-date="03/19/2024 12:52:57" visibility="private">
+            <feature />
+            <structural-feature type="" type-id="" />
+            <property />
+          </item>
+          <item id="1cd85d5d52d2407fb67c0ae2e251bbf8" cid="GNR001" type="generalization" name="" style-class="" creator="" creation-date="03/19/2024 12:41:20" from="164eeb43d6e14f80bb5249f4f06fe077" to="bfd690761b0d48f6be7de649060b2fd7" visibility="package" />
+          <item id="dc8fec767e4f4646b72222e76da8ce4e" cid="PROP013" type="property" name="no_returned_books" style-class="" owner="164eeb43d6e14f80bb5249f4f06fe077" creator="" creation-date="03/19/2024 12:44:23" visibility="private">
+            <feature />
+            <structural-feature type="" type-id="" />
+            <property />
+          </item>
+          <item id="cebcc01e93f34581a9df6762ec2808ba" cid="PROP019" type="property" name="" style-class="" owner="36e97e0c3e5d43dcbfd24150c3c75c2a" creator="" creation-date="03/19/2024 12:53:45" visibility="private">
+            <feature />
+            <structural-feature type="" type-id="" />
+            <property />
+          </item>
+          <item id="8d051553ac61486a8332a907778764d6" cid="PROP005" type="property" name="ID" style-class="" owner="a4085e0e72424b11bc4e4049cab9625e" creator="" creation-date="03/19/2024 12:22:38" visibility="private">
+            <feature />
+            <structural-feature type="" type-id="" />
+            <property />
+          </item>
+          <item id="bfd690761b0d48f6be7de649060b2fd7" cid="C003" type="class" name="users" style-class="" creator="" creation-date="03/19/2024 12:30:19" visibility="undefined">
+            <owned-items>
+              <owned-item ref="24060108924c49ad8ac7910342a7b856" />
+              <owned-item ref="2d2ead1a87834cef8ea7e6099cb05291" />
+              <owned-item ref="db4c4345ae6446d9a98ad34d625962a5" />
+            </owned-items>
+            <attributes>
+              <attribute id="a5514217664d04259af64ea302aadb9fe755" cid="PROP008" name="Name" creation-date="03/19/2024 12:32:01" property-ref="2d2ead1a87834cef8ea7e6099cb05291" />
+              <attribute id="a5c3853afb5ad432cbb2e83df69fe6e29261" cid="PROP009" name="ID" creation-date="03/19/2024 12:32:37" property-ref="db4c4345ae6446d9a98ad34d625962a5" />
+              <attribute id="a2d3e43128e6441c8a593cd9660d82fee564" cid="PROP010" name="Department" creation-date="03/19/2024 12:32:40" property-ref="24060108924c49ad8ac7910342a7b856" />
+            </attributes>
+            <operations>
+              <operation id="o96f344a78ed34711a6b3f7c415fefd1d969" cid="OP007" name="verify" creation-date="03/19/2024 12:33:23" type="" type-id="" visibility="public" />
+              <operation id="o723fc9062d6545a6aed4d58a5835d2b1121" cid="OP008" name="checkAccount" creation-date="03/19/2024 12:34:12" type="" type-id="" visibility="public" />
+              <operation id="o260864a72aa14b098ac96f1a73acfd32257" cid="OP009" name="get_book_info" creation-date="03/19/2024 12:34:35" type="" type-id="" visibility="public" />
+            </operations>
+          </item>
+          <item id="565f07d102c441d89a3777ba8f5a6e6b" cid="PROP016" type="property" name="ISBN" style-class="" owner="36e97e0c3e5d43dcbfd24150c3c75c2a" creator="" creation-date="03/19/2024 12:47:49" visibility="private">
+            <feature />
+            <structural-feature type="" type-id="" />
+            <property />
+          </item>
+          <item id="127dc6de1f8a433ea15936ec9e14cf60" cid="PROP012" type="property" name="no_resevered_books" style-class="" owner="164eeb43d6e14f80bb5249f4f06fe077" creator="" creation-date="03/19/2024 12:43:32" visibility="private">
+            <feature />
+            <structural-feature type="" type-id="" />
+            <property />
+          </item>
+          <item id="379424a0bc9d43edbff0149624a8c5ed" cid="REL006" type="relationship" name="" style-class="" creator="" creation-date="03/19/2024 13:01:33" from="a4085e0e72424b11bc4e4049cab9625e" to="52d42f8cc79541f19cd4dbbfd8bf24c7" visibility="package">
+            <owned-items>
+              <owned-item ref="27f4483ad36848f1929a5c7d894774c0" />
+              <owned-item ref="6a1ed3a0a9784771835309cf0af05f22" />
+            </owned-items>
+            <relation from="a4085e0e72424b11bc4e4049cab9625e" to="52d42f8cc79541f19cd4dbbfd8bf24c7" derived="false">
+              <start-role id="umlar-b495444c-62c3-49f8-af5a-cd407263aaaa" name="" navigability="" association-type="association" visibility="private" />
+              <end-role id="umlar-b04d44fc-7fc1-45df-8807-e940cf6c3d59" name="" navigability="" association-type="association" visibility="private" />
+            </relation>
+          </item>
+          <item id="0ee15e4d302b453e997f3dfba1c2becb" cid="PROP015" type="property" name="Author" style-class="" owner="36e97e0c3e5d43dcbfd24150c3c75c2a" creator="" creation-date="03/19/2024 12:47:36" visibility="private">
+            <feature />
+            <structural-feature type="" type-id="" />
+            <property />
+          </item>
+        </abstract-items>
+        <layer id="e79c4268063c42208b248dc1e5e4685a" name="Default" visible="true" enabled="true" locked="false">
+          <item id="1acd51359d1f4d9bbe58e53dd84b0c58" iid="b610fb68f1e24fd2ab447512a95c6121" show-fields="true" creation-date="03/19/2024 12:14:12" order-index="1" type="entity">
+            <layout ax="501" ay="44" awidth="237" aheight="174" x="501" y="44" width="237" height="160" />
+            <class />
+          </item>
+          <item id="a4085e0e72424b11bc4e4049cab9625e" iid="20ec84b395364dfba7df6df77f1c1196" show-fields="true" creation-date="03/19/2024 12:19:30" order-index="2" type="entity">
+            <layout ax="681" ay="326" awidth="140" aheight="160" x="681" y="326" width="140" height="160" />
+            <class />
+          </item>
+          <item id="bfd690761b0d48f6be7de649060b2fd7" iid="5fa49cc9d01e4684b6d0b328a11a4d9c" show-fields="true" creation-date="03/19/2024 12:30:19" order-index="3" type="entity">
+            <layout ax="268" ay="107" awidth="140" aheight="160" x="268" y="107" width="140" height="160" />
+            <class />
+          </item>
+          <item id="52d42f8cc79541f19cd4dbbfd8bf24c7" iid="72df47470aab4ff4b77f4283f9c7fb3b" show-fields="true" creation-date="03/19/2024 12:35:23" order-index="4" type="entity">
+            <layout ax="911" ay="267" awidth="140" aheight="160" x="911" y="267" width="140" height="160" />
+            <class />
+          </item>
+          <item id="164eeb43d6e14f80bb5249f4f06fe077" iid="a57c90d7e7904e87a343ed36c08feb2f" creation-date="03/19/2024 12:41:20" order-index="5" type="entity">
+            <layout ax="191" ay="369" awidth="140" aheight="117" x="191" y="369" width="140" height="117" />
+            <class />
+          </item>
+          <item id="1cd85d5d52d2407fb67c0ae2e251bbf8" iid="185061f2ef9a48dbbc5fab5dbbcad37e" creation-date="03/19/2024 12:41:21" order-index="6" type="relation">
+            <layout line-style="oblique" lock-to-fields="false" auto-path="" x1="280" y1="369" x2="312" y2="267" start-border-pos="0.158661815098354" end-border-pos="0.670643179757255" name-position="0,20">
+              <points>
+                <point x="280" y="369" />
+                <point x="312" y="267" />
+              </points>
+            </layout>
+            <relation from="164eeb43d6e14f80bb5249f4f06fe077" from-iid="a57c90d7e7904e87a343ed36c08feb2f" to="bfd690761b0d48f6be7de649060b2fd7" to-iid="5fa49cc9d01e4684b6d0b328a11a4d9c" />
+          </item>
+          <item id="36e97e0c3e5d43dcbfd24150c3c75c2a" iid="08aa03d9f50f48ad84d0e8f1d2a21f7f" show-fields="true" creation-date="03/19/2024 12:46:01" order-index="7" type="entity">
+            <layout ax="447" ay="396" awidth="144" aheight="212" x="447" y="396" width="140" height="160" />
+            <class />
+          </item>
+          <item id="c59bfcef37b74bf0a4d0983252995740" iid="e2a80a4581ef427e915ec6a56b8fcc44" creation-date="03/19/2024 12:59:26" order-index="8" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="oblique" lock-to-fields="false" auto-path="" x1="501" y1="155" x2="408" y2="173" start-border-pos="0.841047111598925" end-border-pos="0.353280138969421" name-position="0,20">
+              <points>
+                <point x="501" y="155" />
+                <point x="408" y="173" />
+              </points>
+            </layout>
+            <relation from="1acd51359d1f4d9bbe58e53dd84b0c58" from-iid="b610fb68f1e24fd2ab447512a95c6121" to="bfd690761b0d48f6be7de649060b2fd7" to-iid="5fa49cc9d01e4684b6d0b328a11a4d9c" />
+          </item>
+          <item id="88011a2613c44e009e1a9db3021802bb" iid="c70c3ed847fd4b36b6dcb2118c89b7ab" creation-date="03/19/2024 12:59:47" order-index="9" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="oblique" lock-to-fields="false" auto-path="" x1="596" y1="218" x2="548" y2="396" start-border-pos="0.649456362181072" end-border-pos="0.175099160936144" name-position="0,20">
+              <points>
+                <point x="596" y="218" />
+                <point x="548" y="396" />
+              </points>
+            </layout>
+            <relation from="1acd51359d1f4d9bbe58e53dd84b0c58" from-iid="b610fb68f1e24fd2ab447512a95c6121" to="36e97e0c3e5d43dcbfd24150c3c75c2a" to-iid="08aa03d9f50f48ad84d0e8f1d2a21f7f" />
+          </item>
+          <item id="6813f6479cb0485084658df565786255" iid="8ea2c2005a0a4904992ce2b6a92e3b50" creation-date="03/19/2024 13:00:35" order-index="10" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="oblique" lock-to-fields="false" auto-path="" x1="661" y1="218" x2="713" y2="326" start-border-pos="0.58075562811099" end-border-pos="0.0569480895996094" name-position="0,20">
+              <points>
+                <point x="661" y="218" />
+                <point x="713" y="326" />
+              </points>
+            </layout>
+            <relation from="1acd51359d1f4d9bbe58e53dd84b0c58" from-iid="b610fb68f1e24fd2ab447512a95c6121" to="a4085e0e72424b11bc4e4049cab9625e" to-iid="20ec84b395364dfba7df6df77f1c1196" />
+          </item>
+          <item id="d6a5fd86038546e1b6a7aabd4004228d" iid="319e160c72ab480fa3bd5b7544a564a6" creation-date="03/19/2024 13:00:59" order-index="11" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="oblique" lock-to-fields="false" auto-path="" x1="384" y1="267" x2="458" y2="396" start-border-pos="0.542913818359375" end-border-pos="0.0192570686340332" name-position="0,20">
+              <points>
+                <point x="384" y="267" />
+                <point x="458" y="396" />
+              </points>
+            </layout>
+            <relation from="bfd690761b0d48f6be7de649060b2fd7" from-iid="5fa49cc9d01e4684b6d0b328a11a4d9c" to="36e97e0c3e5d43dcbfd24150c3c75c2a" to-iid="08aa03d9f50f48ad84d0e8f1d2a21f7f" />
+          </item>
+          <item id="79d9ddddb9824043b2b4c5b3acbcef6e" iid="ef420f8dba7f4334a8b80f70867adfcd" creation-date="03/19/2024 13:01:14" order-index="12" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="591" y1="453" x2="681" y2="416" start-border-pos="0.317216981132075" end-border-pos="0.859375" start-local-pos="57" end-local-pos="90" name-position="0,20">
+              <points>
+                <point x="591" y="453" />
+                <point x="681" y="416" />
+              </points>
+            </layout>
+            <relation from="36e97e0c3e5d43dcbfd24150c3c75c2a" from-iid="08aa03d9f50f48ad84d0e8f1d2a21f7f" to="a4085e0e72424b11bc4e4049cab9625e" to-iid="20ec84b395364dfba7df6df77f1c1196" />
+          </item>
+          <item id="379424a0bc9d43edbff0149624a8c5ed" iid="4ade5da9013e413d9f373ed9547ba6ab" creation-date="03/19/2024 13:01:33" order-index="13" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="821" y1="385" x2="911" y2="361" start-border-pos="0.3421875" end-border-pos="0.853125" start-local-pos="59" end-local-pos="94" name-position="0,20">
+              <points>
+                <point x="821" y="385" />
+                <point x="911" y="361" />
+              </points>
+            </layout>
+            <relation from="a4085e0e72424b11bc4e4049cab9625e" from-iid="20ec84b395364dfba7df6df77f1c1196" to="52d42f8cc79541f19cd4dbbfd8bf24c7" to-iid="72df47470aab4ff4b77f4283f9c7fb3b" />
+          </item>
+          <item id="4572152ff4d449c5a3ea2936368ed99b" iid="6a991b9062294c22a296e08133f4d28e" creation-date="03/19/2024 13:01:44" order-index="14" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="738" y1="185" x2="937" y2="267" start-border-pos="0.452586206896552" end-border-pos="0.0464285714285714" start-local-pos="141" end-local-pos="26" name-position="0,20">
+              <points>
+                <point x="738" y="185" />
+                <point x="937" y="267" />
+              </points>
+            </layout>
+            <relation from="1acd51359d1f4d9bbe58e53dd84b0c58" from-iid="b610fb68f1e24fd2ab447512a95c6121" to="52d42f8cc79541f19cd4dbbfd8bf24c7" to-iid="72df47470aab4ff4b77f4283f9c7fb3b" />
+          </item>
+        </layer>
+      </diagram>
+    </model>
+  </models>
+</sim-project>
